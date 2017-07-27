@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Document", "Containe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Document.XML", "Container\Common.Document.XML\Common.Document.XML.csproj", "{9C47B50C-F95B-45AB-B6AA-A15A700C016D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment", "Payment\Payment.csproj", "{80FA900B-6A2C-416A-968B-51D62E98EA15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment", "Payment\Payment.csproj", "{B6380658-7FFE-4B25-B5E7-3EB6CF8A0277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80FA900B-6A2C-416A-968B-51D62E98EA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80FA900B-6A2C-416A-968B-51D62E98EA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80FA900B-6A2C-416A-968B-51D62E98EA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80FA900B-6A2C-416A-968B-51D62E98EA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6380658-7FFE-4B25-B5E7-3EB6CF8A0277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6380658-7FFE-4B25-B5E7-3EB6CF8A0277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6380658-7FFE-4B25-B5E7-3EB6CF8A0277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6380658-7FFE-4B25-B5E7-3EB6CF8A0277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
