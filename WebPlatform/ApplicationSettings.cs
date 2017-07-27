@@ -32,7 +32,7 @@ namespace WebPlatform
 
         public MenuSettings Menu { get; set; }
         
-        public AuthenticationSettings ControllerSettings { get; set; }
+        public AuthenticationSettings AuthenticationSetting { get; set; }
 
         public EnvironmentSettings Environment { get; private set; }
         
@@ -40,7 +40,7 @@ namespace WebPlatform
 
         public TechnicalInformationSettings TechnicalInformation { get; private set; }
 
-        public SecuritySettings SecuritySettings { get; private set; }
+        public SecuritySettings SecuritySetting { get; private set; }
 
         internal WebPlatform.Configuration.ConnectionStringSettings Connection { get; private set; }
 
@@ -55,13 +55,13 @@ namespace WebPlatform
         public ApplicationSettings()
         {
             Menu = new MenuSettings();
-            ControllerSettings = new AuthenticationSettings();
+            AuthenticationSetting = new AuthenticationSettings();
             Landing = new LandingPageSettings();
             System.Configuration.Configuration config = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("~");
 
             Environment = (WebPlatform.Configuration.EnvironmentSettings)config.GetSection("environmentSettings");
             TechnicalInformation = (WebPlatform.Configuration.TechnicalInformationSettings)config.GetSection("technicalInformationSettings");
-            SecuritySettings = (WebPlatform.Configuration.SecuritySettings)config.GetSection("securitySettings");
+            SecuritySetting = (WebPlatform.Configuration.SecuritySettings)config.GetSection("securitySettings");
             Email = (WebPlatform.Configuration.EmailSettings)config.GetSection("emailSettings");
             Connection = (WebPlatform.Configuration.ConnectionStringSettings)config.GetSection("connectionStringCollection");
             

@@ -30,7 +30,7 @@ namespace WebPlatform
           
         public bool LoginUser(string username) 
         {
-            if (ApplicationSettings.Instance.ControllerSettings.EnableAuthentication)
+            if (ApplicationSettings.Instance.AuthenticationSetting.EnableAuthentication)
             { 
                 string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
                 if (userProvider == null)
@@ -47,7 +47,7 @@ namespace WebPlatform
 
         public bool LoginUser(string username, string password)
         {
-            if (ApplicationSettings.Instance.ControllerSettings.EnableAuthentication)
+            if (ApplicationSettings.Instance.AuthenticationSetting.EnableAuthentication)
             {
                 string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
                 if (userProvider == null)

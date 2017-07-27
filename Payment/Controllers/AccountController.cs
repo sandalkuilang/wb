@@ -61,11 +61,7 @@ namespace Payment.Controllers
             }
             else
             { 
-                return RedirectToRoute(new RouteValueDictionary(new
-                {
-                    action = base.PageSettings.IndexPage,
-                    controller = ApplicationSettings.Instance.Landing.HomeController
-                }));
+                return RedirectToRoute("Default");
             }
         }
          

@@ -8,6 +8,7 @@ using WebPlatform.Credential;
 
 namespace Payment.Controllers
 { 
+    [Authorization]
     public class HomeController : PageController
     { 
 

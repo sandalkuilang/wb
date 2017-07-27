@@ -104,7 +104,7 @@ namespace WebPlatform
          
         private void InitializeCryptography(IContainer container)
         {
-            SymmetricEncryption sym = new RijndaelEncryption(ApplicationSettings.Instance.SecuritySettings.Key, ApplicationSettings.Instance.SecuritySettings.IV);
+            SymmetricEncryption sym = new RijndaelEncryption(ApplicationSettings.Instance.SecuritySetting.Key, ApplicationSettings.Instance.SecuritySetting.IV);
             container.Register<Cryptography.IEncryptionAgent>().ImplementedBy(sym);
 
             container.Register<Cryptography.IEncryptionFileAgent>().ImplementedBy<PGPEncryption>();

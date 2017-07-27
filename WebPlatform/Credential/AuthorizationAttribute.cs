@@ -31,7 +31,7 @@ namespace WebPlatform.Credential
                     controller = ApplicationSettings.Instance.Landing.LoginController
                 }));
             }
-            else if (!controller.Authentication.IsAuthorized && !ApplicationSettings.Instance.ControllerSettings.SkipAuthorization)
+            else if (!controller.Authentication.IsAuthorized && !ApplicationSettings.Instance.AuthenticationSetting.SkipAuthorization)
             {
                 if (string.IsNullOrEmpty(ApplicationSettings.Instance.Landing.UnauthorizedControlller))
                 {
