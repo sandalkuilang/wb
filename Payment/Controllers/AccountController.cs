@@ -48,7 +48,6 @@ namespace Payment.Controllers
             }
             return View();
         }
-
-        pu
+         
     }
 }
