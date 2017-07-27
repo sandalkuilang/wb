@@ -1,0 +1,5 @@
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\bin\Debug\Common.Document.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\bin\Debug\Common.Document.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.pdb

@@ -10,3 +10,15 @@ D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\Common.Document.pdb
 D:\GitHub\CommonLibrary\Common.Document.XML\obj\Debug\Common.Document.XML.csprojResolveAssemblyReference.cache
 D:\GitHub\CommonLibrary\Common.Document.XML\obj\Debug\Common.Document.XML.dll
 D:\GitHub\CommonLibrary\Common.Document.XML\obj\Debug\Common.Document.XML.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.XML.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.XML.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.OOXML.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.OpenXml4Net.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.OpenXmlFormats.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.pdb

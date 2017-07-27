@@ -3,3 +3,8 @@ D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\bin\Debug\Common.Containe
 D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\obj\Debug\Common.Container.csprojResolveAssemblyReference.cache
 D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\obj\Debug\Common.Container.dll
 D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\obj\Debug\Common.Container.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\bin\Debug\Common.Container.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\bin\Debug\Common.Container.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.pdb

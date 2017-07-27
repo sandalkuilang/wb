@@ -29,3 +29,20 @@ X:\Github\Krokot\WebPlatform\bin\Debug\System.Web.Razor.dll
 X:\Github\Krokot\WebPlatform\bin\Debug\System.Web.WebPages.Deployment.dll
 X:\Github\Krokot\WebPlatform\bin\Debug\System.Web.WebPages.dll
 X:\Github\Krokot\WebPlatform\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\WebPlatform.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\WebPlatform.pdb
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\Crypto.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\Krokot.Container.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\Krokot.Database.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\Krokot.Database.Petapoco.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\System.Web.Helpers.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\System.Web.Mvc.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\System.Web.Razor.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\System.Web.WebPages.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\System.Web.WebPages.Razor.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\obj\Debug\WebPlatform.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\obj\Debug\WebPlatform.dll
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\obj\Debug\WebPlatform.pdb
+G:\Visual Studio 2017\Projects\wb-payment\WebPlatform\bin\Debug\BouncyCastle.Crypto.dll

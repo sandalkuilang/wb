@@ -7,7 +7,7 @@
     {
         V Add(T item);
         void Clear();
-        V Get<T>();
+        V Get<TKey>();
         V Get(string key);
         void Remove(T item); 
         int Count { get; }

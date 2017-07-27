@@ -34,6 +34,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="Crypto, Version=1.0.5896.34049, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\KrokotLibrary\Crypto.dll</HintPath>
@@ -101,6 +105,8 @@
     <Compile Include="Cryptography\Base64WebConfigurationKey.cs" />
     <Compile Include="Cryptography\GenerateKeyIV.cs" />
     <Compile Include="Cryptography\ArrayWebConfigurationKey.cs" />
+    <Compile Include="Cryptography\IEncryptionFileAgent.cs" />
+    <Compile Include="Cryptography\PGPEncryption.cs" />
     <Compile Include="GlobalConst.cs" />
     <Compile Include="HierarchicalEnumerable.cs" />
     <Compile Include="BaseRazorHtmlExtensions.cs" />
@@ -158,6 +164,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libs\BouncyCastle.Crypto.dll" />
     <Content Include="libs\Crypto.dll" />
     <Content Include="libs\Krokot.Container.dll" />
     <Content Include="libs\Krokot.Database.dll" />

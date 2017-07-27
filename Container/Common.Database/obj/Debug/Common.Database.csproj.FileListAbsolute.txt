@@ -3,3 +3,8 @@ D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\bin\Debug\Common.Database.
 D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\obj\Debug\Common.Database.csprojResolveAssemblyReference.cache
 D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\obj\Debug\Common.Database.dll
 D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\obj\Debug\Common.Database.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\bin\Debug\Common.Database.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\bin\Debug\Common.Database.pdb
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.dll
+G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.pdb
