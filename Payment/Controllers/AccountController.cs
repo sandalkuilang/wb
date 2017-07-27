@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebPlatform;
 
 namespace Payment.Controllers
 {
-    public class AccountController : Controller
+    public class AccountController : LoginPageController
     {
         // GET: Account
         public ActionResult Index()
@@ -27,8 +28,10 @@ namespace Payment.Controllers
             if (ModelState.IsValid)
             {
                 IUserAccountRepository repo = new UserAccountRepository();
-                repo.Register(new { }); 
+                repo.Register(new {  }); 
             }
+            ModelState.Clear();
+            return View();
         }
          
         public ActionResult Login()
@@ -38,9 +41,14 @@ namespace Payment.Controllers
 
         [HttpPost]
         public ActionResult Login(UserAccount account)
-        { 
-            IUserAccountRepository repo = new UserAccountRepository();
-            repo.Login(new { }); 
+        {  
+            if (!base.Login(account.UserName, account.Password)) 
+            {
+                ModelState.AddModelError("", "Username or Password is wrong");
+            }
+            return View();
         }
+
+        pu
     }
 }

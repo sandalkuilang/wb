@@ -73,11 +73,8 @@ g:\visual studio 2017\Projects\wb-payment\Payment\bin\Common.Document.XML.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\WebPlatform.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\NPOI.OOXML.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\NPOI.dll
-g:\visual studio 2017\Projects\wb-payment\Payment\bin\Krokot.Container.dll
-g:\visual studio 2017\Projects\wb-payment\Payment\bin\Krokot.Database.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\Crypto.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\BouncyCastle.Crypto.dll
-g:\visual studio 2017\Projects\wb-payment\Payment\bin\Krokot.Database.Petapoco.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\NPOI.OpenXmlFormats.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\NPOI.OpenXml4Net.dll
 g:\visual studio 2017\Projects\wb-payment\Payment\bin\ICSharpCode.SharpZipLib.dll

@@ -27,12 +27,7 @@ namespace WebPlatform
             dbManager = SessionPool.Instance.Resolve<IDbManager>(); 
             userProvider = SessionPool.Instance.Resolve<IUserProvider>();
         }
-         
-        public bool Login()
-        {
-            return Login(WebUtils.ParseUserLogon(HttpContext.User.Identity.Name));
-        }
-
+          
         public bool Login(string username) 
         {
             if (ApplicationSettings.Instance.Security.EnableAuthentication)
@@ -106,13 +101,7 @@ namespace WebPlatform
             Session.Lookup().Unregister<PlatformExtensions>();
             return true;
         }
-
-        public void Refresh()
-        {
-            Logout();
-            Login();
-        }
-
+ 
         public override void Startup()
         {
             
