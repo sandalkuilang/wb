@@ -9,5 +9,6 @@ namespace Payment.Models.Repo
     {
         void Register(dynamic param);
         bool Login(dynamic param);
+        List<UserAccount> GetUsersList(dynamic param);
     }
 }

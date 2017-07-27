@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Payment.Models.Repo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,7 +13,13 @@ namespace Payment
     public class MvcApplication : WebApplicationStartup
     {
         public override void Startup()
-        { 
+        {
+            SessionPool.Instance.Register<IUserAccountRepository>().ImplementedBy<UserAccountRepository>();
+        }
+
+        public override void Initialize()
+        {
+              
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

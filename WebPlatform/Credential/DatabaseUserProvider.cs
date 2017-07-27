@@ -30,7 +30,7 @@ namespace WebPlatform.Credential
             List<User> user = db.Query<User>("GetUserByName", new 
             { 
                 Username = username,
-                Application = ApplicationSettings.Instance.Environment.ApplicationId
+                Password = ""
             });
             db.Close();
 
@@ -41,7 +41,19 @@ namespace WebPlatform.Credential
         }
 
         public User GetUser(string username, string password)
-        { 
+        {
+            string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
+            IDataCommand db = dbManager.GetDatabase(defaultDbName);
+            List<User> user = db.Query<User>("GetUserByName", new
+            {
+                Username = username,
+                Password = password
+            });
+            db.Close();
+
+            if (user.Any())
+                return user[0];
+
             return null;
         } 
 

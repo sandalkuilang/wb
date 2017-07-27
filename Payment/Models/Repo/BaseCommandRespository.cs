@@ -20,9 +20,10 @@ namespace Payment.Models.Repo
         public delegate IList<T> QueryAction<T>();
         public delegate int GetAction();
 
+        private const string DB_CONST = "WebTemplate";
 
         public BaseCommandRespository()
-            : this("SAPPayment")
+            : this(DB_CONST)
         {
 
         }

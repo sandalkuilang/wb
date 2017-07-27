@@ -5,16 +5,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Routing;
 using WebPlatform;
 
 namespace Payment.Controllers
-{
+{ 
     public class AccountController : LoginPageController
     {
         // GET: Account
         public ActionResult Index()
         {
-            return View();
+            IUserAccountRepository repo = SessionPool.Instance.Resolve<IUserAccountRepository>();            
+            return View(repo.GetUsersList(null));
         }
 
         public ActionResult Register()
@@ -27,8 +29,18 @@ namespace Payment.Controllers
         {
             if (ModelState.IsValid)
             {
-                IUserAccountRepository repo = new UserAccountRepository();
-                repo.Register(new {  }); 
+                IUserAccountRepository repo = SessionPool.Instance.Resolve<IUserAccountRepository>();
+                repo.Register(new
+                {
+                    Username = account.UserName,
+                    Firstname = account.FirstName,
+                    Lastname = account.LastName,
+                    Password = account.Password,
+                    Email = account.Email,
+                    IsActive = 1,
+                    CreatedBy = "System",
+                    CreatedDate = DateTime.Now
+                }); 
             }
             ModelState.Clear();
             return View();
@@ -42,11 +54,19 @@ namespace Payment.Controllers
         [HttpPost]
         public ActionResult Login(UserAccount account)
         {  
-            if (!base.Login(account.UserName, account.Password)) 
+            if (!base.LoginUser(account.UserName, account.Password)) 
             {
-                ModelState.AddModelError("", "Username or Password is wrong");
+                ModelState.AddModelError("", "User name or Password is wrong");
+                return View();
             }
-            return View();
+            else
+            { 
+                return RedirectToRoute(new RouteValueDictionary(new
+                {
+                    action = base.PageSettings.IndexPage,
+                    controller = ApplicationSettings.Instance.Landing.HomeController
+                }));
+            }
         }
          
     }

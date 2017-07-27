@@ -28,15 +28,15 @@ namespace WebPlatform.Credential
                 filterContext.Result = new RedirectToRouteResult(new RouteValueDictionary(new
                 {
                     action = controller.PageSettings.IndexPage,
-                    controller = ApplicationSettings.Instance.Security.LoginControlller
+                    controller = ApplicationSettings.Instance.Landing.LoginController
                 }));
             }
-            else if (!controller.Authentication.IsAuthorized && !ApplicationSettings.Instance.Security.SkipAuthorization)
+            else if (!controller.Authentication.IsAuthorized && !ApplicationSettings.Instance.ControllerSettings.SkipAuthorization)
             {
-                if (string.IsNullOrEmpty(ApplicationSettings.Instance.Security.UnauthorizedControlller))
+                if (string.IsNullOrEmpty(ApplicationSettings.Instance.Landing.UnauthorizedControlller))
                 {
                     ContentResult result = new ContentResult();
-                    result.Content = new MvcHtmlString(ApplicationSettings.Instance.Security.UnauthorizedAlert).ToHtmlString();
+                    result.Content = new MvcHtmlString(ApplicationSettings.Instance.Landing.UnauthorizedAlert).ToHtmlString();
                     filterContext.Result = result;
                 }
                 else
@@ -44,7 +44,7 @@ namespace WebPlatform.Credential
                     filterContext.Result = new RedirectToRouteResult(new RouteValueDictionary(new
                     {
                         action = controller.PageSettings.IndexPage,
-                        controller = ApplicationSettings.Instance.Security.UnauthorizedControlller
+                        controller = ApplicationSettings.Instance.Landing.UnauthorizedControlller
                     }));
                 }
             } 

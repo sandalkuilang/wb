@@ -35,8 +35,7 @@ namespace WebPlatform.Menu
             List<MenuData> menuList;
             menuList = db.Query<MenuData>("GetMenu", new 
             { 
-                Username = user.UserName,
-                Application = ApplicationSettings.Instance.Environment.ApplicationId
+                Username = user.UserName
             });
             db.Close();
 

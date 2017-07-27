@@ -9,6 +9,17 @@ namespace Payment.Models.Repo
 {
     public class UserAccountRepository : BaseCommandRespository, IUserAccountRepository
     {
+        public List<UserAccount> GetUsersList(dynamic param)
+        {
+            this.Database.Open();
+            List<UserAccount> result = this.Database.Query<UserAccount>("GetUsersList", param);
+            this.Database.Close();
+            if (result.Any())
+                return result;
+
+            return null;
+        }
+
         public bool Login(dynamic param)
         {
             this.Database.Open();

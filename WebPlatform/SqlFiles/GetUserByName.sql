@@ -1,18 +1,17 @@
-﻿SELECT [CAI_ID]  AS CAI
-	  ,BADGE 
-      ,[NETWORK_ID] AS NetworkId 
-      ,[Badge] 
-      ,[NAME] AS Name
-      ,Email 
-      ,[STATUS] AS Status
-      ,[COMPANY] AS Company
-      ,ISBACKUP
-      ,[OPG] AS OPG
-      ,[DIVISION] AS Division
-      ,[SUBDIVISION] AS SubDivision
-      ,[DEPARTMENT] AS Department
-      ,[SUBDEPARTMENT] AS SubDepartment
-      ,[ISACTIVE] AS IsActive 
-  FROM [USER_PROFILE]
-  WHERE NETWORK_ID = @Username
-	AND APPLICATION = @Application
+﻿DECLARE @@userID NVARCHAR(50)
+
+IF EXISTS (SELECT TOP 1 USERNAME FROM [USER_PROFILE] WHERE USERNAME=@Username)
+BEGIN
+    SET @@userID=(SELECT USERNAME FROM [USER_PROFILE] WHERE USERNAME=@Username AND PasswordHash=HASHBYTES('SHA2_512', @Password+CAST(Salt AS NVARCHAR(36))))
+
+    IF(@@userID IS NOT NULL)          
+        SELECT [USERNAME]
+			  ,[FIRSTNAME]
+			  ,[LASTNAME]
+			  ,[EMAIL]
+			  ,[STATUS] 
+			  ,[ISBACKUP]  
+			  ,[ISACTIVE] 
+		  FROM [USER_PROFILE]
+		  WHERE USERNAME = @Username
+END 

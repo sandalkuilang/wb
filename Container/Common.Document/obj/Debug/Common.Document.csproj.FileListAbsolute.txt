@@ -3,3 +3,7 @@ G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\bin\Debug\Co
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.csprojResolveAssemblyReference.cache
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.dll
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\bin\Debug\Common.Document.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\bin\Debug\Common.Document.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document\obj\Debug\Common.Document.pdb

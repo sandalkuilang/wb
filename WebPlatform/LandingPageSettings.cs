@@ -16,12 +16,21 @@ namespace WebPlatform
     {
         public string HomeController { get; set; }
         public string LandingController { get; set; }
-        public string MaintenanceController { get; set; } 
+        public string MaintenanceController { get; set; }
+
+        public string LoginController { get; set; }
+        public string UnauthorizedControlller { get; set; }
+       
+        public string UnauthorizedAlert { get; set; }
 
         public LandingPageSettings()
         {
             HomeController = "Home";
-            MaintenanceController = "Maintenance"; 
+            LandingController = "Home";
+            MaintenanceController = "Maintenance";
+            LoginController = "Account/Login";
+            UnauthorizedControlller = "Unauthorized";
+            UnauthorizedAlert = "You are not authorized access this page.";
         }
     }
 }

@@ -30,7 +30,7 @@ namespace WebPlatform.Credential
  
         public void Authenticate(RequestContext requestContext)
         {
-            if (ApplicationSettings.Instance.Security.EnableAuthentication && ApplicationSettings.Instance.Landing.LandingController != screenId)
+            if (ApplicationSettings.Instance.ControllerSettings.EnableAuthentication)
             {
                 User user = requestContext.HttpContext.Session.Lookup().Resolve<User>();
                 if (user != null)

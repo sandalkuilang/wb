@@ -102,5 +102,12 @@ namespace WebPlatform
             }
         }
          
+        private void InitializeCryptography(IContainer container)
+        {
+            SymmetricEncryption sym = new RijndaelEncryption(ApplicationSettings.Instance.SecuritySettings.Key, ApplicationSettings.Instance.SecuritySettings.IV);
+            container.Register<Cryptography.IEncryptionAgent>().ImplementedBy(sym);
+
+            container.Register<Cryptography.IEncryptionFileAgent>().ImplementedBy<PGPEncryption>();
+        }
     }
 }

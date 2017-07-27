@@ -22,3 +22,15 @@ G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debu
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.csprojResolveAssemblyReference.cache
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.dll
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.XML.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.XML.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\ICSharpCode.SharpZipLib.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.OOXML.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.OpenXml4Net.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\NPOI.OpenXmlFormats.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\bin\Debug\Common.Document.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Document.XML\obj\Debug\Common.Document.XML.pdb
