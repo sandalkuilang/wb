@@ -1,0 +1,9 @@
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Container\bin\Debug\Chevron.Container.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Container\bin\Debug\Chevron.Container.pdb
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Container\obj\Debug\Chevron.Container.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Container\obj\Debug\Chevron.Container.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\bin\Debug\Chevron.Container.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\bin\Debug\Chevron.Container.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\obj\Debug\Chevron.Container.csprojResolveAssemblyReference.cache
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\obj\Debug\Chevron.Container.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\obj\Debug\Chevron.Container.pdb

@@ -1,0 +1,9 @@
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database\bin\Debug\Chevron.Database.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database\bin\Debug\Chevron.Database.pdb
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database\obj\Debug\Chevron.Database.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database\obj\Debug\Chevron.Database.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\bin\Debug\Chevron.Database.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\bin\Debug\Chevron.Database.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\obj\Debug\Chevron.Database.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\obj\Debug\Chevron.Database.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\obj\Debug\Chevron.Database.csprojResolveAssemblyReference.cache

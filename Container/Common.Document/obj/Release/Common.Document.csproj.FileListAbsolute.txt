@@ -1,0 +1,9 @@
+D:\GitHub\CommonLibrary\Common.Document\bin\Release\Common.Document.dll
+D:\GitHub\CommonLibrary\Common.Document\bin\Release\Common.Document.pdb
+D:\GitHub\CommonLibrary\Common.Document\obj\Release\Common.Document.dll
+D:\GitHub\CommonLibrary\Common.Document\obj\Release\Common.Document.pdb
+G:\Visual Studio 2015\Projects\Container\Krokot.Document\bin\Release\Common.Document.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document\bin\Release\Common.Document.pdb
+G:\Visual Studio 2015\Projects\Container\Krokot.Document\obj\Release\Common.Document.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2015\Projects\Container\Krokot.Document\obj\Release\Common.Document.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document\obj\Release\Common.Document.pdb

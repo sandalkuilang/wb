@@ -1,0 +1,62 @@
+D:\GitHub\CommonLibrary\Test\bin\Release\Test.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\Test.pdb
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Container.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Database.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Database.Petapoco.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Document.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Document.XML.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\NPOI.OOXML.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\NPOI.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\NPOI.OpenXmlFormats.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\NPOI.OpenXml4Net.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Container.pdb
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Database.Petapoco.pdb
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Database.pdb
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Document.XML.pdb
+D:\GitHub\CommonLibrary\Test\bin\Release\Common.Document.pdb
+D:\GitHub\CommonLibrary\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
+D:\GitHub\CommonLibrary\Test\obj\Release\Test.dll
+D:\GitHub\CommonLibrary\Test\obj\Release\Test.pdb
+E:\GitHub\CommonLibrary\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonLibrary\Test\bin\Release\Test.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Test.pdb
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Container.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Database.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Database.Petapoco.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Document.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Document.XML.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\NPOI.OOXML.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\NPOI.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\NPOI.OpenXmlFormats.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\NPOI.OpenXml4Net.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Container.pdb
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Database.Petapoco.pdb
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Database.pdb
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Document.XML.pdb
+E:\GitHub\CommonLibrary\Test\bin\Release\Krokot.Document.pdb
+E:\GitHub\CommonLibrary\Test\obj\Release\Test.dll
+E:\GitHub\CommonLibrary\Test\obj\Release\Test.pdb
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Test.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Test.pdb
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Container.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Database.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Database.Petapoco.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Document.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Document.XML.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\NPOI.OOXML.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\NPOI.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\NPOI.OpenXmlFormats.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\NPOI.OpenXml4Net.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Container.pdb
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Database.Petapoco.pdb
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Database.pdb
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Document.XML.pdb
+G:\Visual Studio 2015\Projects\Container\Test\bin\Release\Common.Document.pdb
+G:\Visual Studio 2015\Projects\Container\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2015\Projects\Container\Test\obj\Release\Test.dll
+G:\Visual Studio 2015\Projects\Container\Test\obj\Release\Test.pdb

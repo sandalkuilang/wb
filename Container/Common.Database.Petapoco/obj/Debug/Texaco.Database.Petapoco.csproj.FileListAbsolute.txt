@@ -1,0 +1,28 @@
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Texaco.Database.Petapoco.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Texaco.Database.Petapoco.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Texaco.Database.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Texaco.Database.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.Petapoco.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.Petapoco.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.Petapoco.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.Petapoco.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Texaco.Database.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.csprojResolveAssemblyReference.cache
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.pdb
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Sandalkuilang.Database.Petapoco.dll
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Sandalkuilang.Database.Petapoco.pdb
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Sandalkuilang.Database.dll
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\bin\Debug\Sandalkuilang.Database.pdb
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Texaco.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Sandalkuilang.Database.Petapoco.dll
+D:\GitHub\TexacoLibrary\Texaco.Database.Petapoco\obj\Debug\Sandalkuilang.Database.Petapoco.pdb

@@ -1,0 +1,4 @@
+D:\GitHub\TexacoLibrary\Texaco.Database\bin\Debug\Sandalkuilang.Database.dll
+D:\GitHub\TexacoLibrary\Texaco.Database\bin\Debug\Sandalkuilang.Database.pdb
+D:\GitHub\TexacoLibrary\Texaco.Database\obj\Debug\Sandalkuilang.Database.dll
+D:\GitHub\TexacoLibrary\Texaco.Database\obj\Debug\Sandalkuilang.Database.pdb

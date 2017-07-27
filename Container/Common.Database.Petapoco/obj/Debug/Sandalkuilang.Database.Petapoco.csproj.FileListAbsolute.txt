@@ -1,0 +1,7 @@
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Sandalkuilang.Database.Petapoco.dll
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Sandalkuilang.Database.Petapoco.pdb
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Sandalkuilang.Database.dll
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Sandalkuilang.Database.pdb
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\obj\Debug\Sandalkuilang.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\obj\Debug\Sandalkuilang.Database.Petapoco.dll
+D:\GitHub\TexacoLibrary\Sandalkuilang.Database.Petapoco\obj\Debug\Sandalkuilang.Database.Petapoco.pdb

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Container", "Common.Container\Common.Container.csproj", "{3525D821-98BD-49EA-9783-E66833D8B2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Database", "Common.Database\Common.Database.csproj", "{AF3DBCD0-D99B-4218-A139-13446E1F5ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{72A4CEEE-8284-41D2-B036-EA5FDAAA11C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4C4F3CF-EEA5-4BE9-B649-516FA4B06F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Database.Petapoco", "Common.Database.Petapoco\Common.Database.Petapoco.csproj", "{9FCD7803-3291-4670-A04C-5758301648A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Document.XML", "Common.Document.XML\Common.Document.XML.csproj", "{9C47B50C-F95B-45AB-B6AA-A15A700C016D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Document", "Common.Document\Common.Document.csproj", "{A2778E8F-0A07-465B-ADD4-7003060E57CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3525D821-98BD-49EA-9783-E66833D8B2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3525D821-98BD-49EA-9783-E66833D8B2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3525D821-98BD-49EA-9783-E66833D8B2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3525D821-98BD-49EA-9783-E66833D8B2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3DBCD0-D99B-4218-A139-13446E1F5ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3DBCD0-D99B-4218-A139-13446E1F5ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3DBCD0-D99B-4218-A139-13446E1F5ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3DBCD0-D99B-4218-A139-13446E1F5ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A4CEEE-8284-41D2-B036-EA5FDAAA11C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A4CEEE-8284-41D2-B036-EA5FDAAA11C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A4CEEE-8284-41D2-B036-EA5FDAAA11C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A4CEEE-8284-41D2-B036-EA5FDAAA11C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCD7803-3291-4670-A04C-5758301648A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCD7803-3291-4670-A04C-5758301648A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCD7803-3291-4670-A04C-5758301648A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCD7803-3291-4670-A04C-5758301648A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C47B50C-F95B-45AB-B6AA-A15A700C016D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2778E8F-0A07-465B-ADD4-7003060E57CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2778E8F-0A07-465B-ADD4-7003060E57CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2778E8F-0A07-465B-ADD4-7003060E57CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2778E8F-0A07-465B-ADD4-7003060E57CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TexacoLibrary.vsmdi
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\Common.Document.XML.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\Common.Document.XML.pdb
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\Common.Document.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\NPOI.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\NPOI.OOXML.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\NPOI.OpenXml4Net.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\NPOI.OpenXmlFormats.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Release\Common.Document.pdb
+D:\GitHub\CommonLibrary\Common.Document.XML\obj\Release\Common.Document.XML.csprojResolveAssemblyReference.cache
+D:\GitHub\CommonLibrary\Common.Document.XML\obj\Release\Common.Document.XML.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\obj\Release\Common.Document.XML.pdb
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\Common.Document.XML.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\Common.Document.XML.pdb
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\Common.Document.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\NPOI.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\NPOI.OOXML.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\NPOI.OpenXml4Net.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\NPOI.OpenXmlFormats.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\bin\Release\Common.Document.pdb
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\obj\Release\Common.Document.XML.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\obj\Release\Common.Document.XML.dll
+G:\Visual Studio 2015\Projects\Container\Krokot.Document.XML\obj\Release\Common.Document.XML.pdb
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\Common.Document.XML.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\Common.Document.XML.pdb
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\Common.Document.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\ICSharpCode.SharpZipLib.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\NPOI.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\NPOI.OOXML.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\NPOI.OpenXml4Net.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\NPOI.OpenXmlFormats.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\bin\Release\Common.Document.pdb
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\obj\Release\Common.Document.XML.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\obj\Release\Common.Document.XML.dll
+G:\Visual Studio 2015\Projects\Container\Common.Document.XML\obj\Release\Common.Document.XML.pdb

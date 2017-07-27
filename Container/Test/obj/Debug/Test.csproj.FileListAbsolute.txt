@@ -1,0 +1,71 @@
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Test.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Test.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Texaco.Container.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Texaco.Database.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Texaco.Database.Petapoco.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Texaco.Container.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Texaco.Database.Petapoco.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\bin\Debug\Texaco.Database.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\obj\Debug\Test.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Test\obj\Debug\Test.pdb
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Test.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Test.pdb
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Container.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Database.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Database.Petapoco.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Document.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Document.XML.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\NPOI.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Container.pdb
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Database.Petapoco.pdb
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Database.pdb
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Document.XML.pdb
+D:\GitHub\TexacoLibrary\Test\bin\Debug\Sandalkuilang.Document.pdb
+D:\GitHub\TexacoLibrary\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\GitHub\TexacoLibrary\Test\obj\Debug\Test.dll
+D:\GitHub\TexacoLibrary\Test\obj\Debug\Test.pdb
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Test.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Test.pdb
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Container.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Database.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Database.Petapoco.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Document.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Document.XML.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\NPOI.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Container.pdb
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Database.Petapoco.pdb
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Database.pdb
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Document.XML.pdb
+D:\GitHub\SandalkuilangLibrary\Test\bin\Debug\Common.Document.pdb
+D:\GitHub\SandalkuilangLibrary\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\GitHub\SandalkuilangLibrary\Test\obj\Debug\Test.dll
+D:\GitHub\SandalkuilangLibrary\Test\obj\Debug\Test.pdb
+D:\GitHub\CommonLibrary\Test\bin\Debug\Test.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\Test.pdb
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Container.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Database.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Database.Petapoco.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Document.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Document.XML.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\NPOI.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Container.pdb
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Database.Petapoco.pdb
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Database.pdb
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Document.XML.pdb
+D:\GitHub\CommonLibrary\Test\bin\Debug\Common.Document.pdb
+D:\GitHub\CommonLibrary\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\GitHub\CommonLibrary\Test\obj\Debug\Test.dll
+D:\GitHub\CommonLibrary\Test\obj\Debug\Test.pdb

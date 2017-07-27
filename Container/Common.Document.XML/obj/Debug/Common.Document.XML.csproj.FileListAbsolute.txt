@@ -1,0 +1,12 @@
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\Common.Document.XML.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\Common.Document.XML.pdb
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\Common.Document.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\NPOI.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\NPOI.OOXML.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\NPOI.OpenXml4Net.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\bin\Debug\Common.Document.pdb
+D:\GitHub\CommonLibrary\Common.Document.XML\obj\Debug\Common.Document.XML.csprojResolveAssemblyReference.cache
+D:\GitHub\CommonLibrary\Common.Document.XML\obj\Debug\Common.Document.XML.dll
+D:\GitHub\CommonLibrary\Common.Document.XML\obj\Debug\Common.Document.XML.pdb

@@ -1,0 +1,5 @@
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\bin\Debug\Common.Database.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\bin\Debug\Common.Database.pdb
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\obj\Debug\Common.Database.csprojResolveAssemblyReference.cache
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\obj\Debug\Common.Database.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database\obj\Debug\Common.Database.pdb

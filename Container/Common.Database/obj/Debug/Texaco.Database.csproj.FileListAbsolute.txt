@@ -1,0 +1,14 @@
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\bin\Debug\Texaco.Database.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\bin\Debug\Texaco.Database.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\obj\Debug\Texaco.Database.csprojResolveAssemblyReference.cache
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\obj\Debug\Texaco.Database.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database\obj\Debug\Texaco.Database.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database\bin\Debug\Texaco.Database.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database\bin\Debug\Texaco.Database.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database\obj\Debug\Texaco.Database.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Database\obj\Debug\Texaco.Database.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database\bin\Debug\Texaco.Database.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database\bin\Debug\Texaco.Database.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database\obj\Debug\Texaco.Database.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database\obj\Debug\Texaco.Database.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Database\obj\Debug\Texaco.Database.csprojResolveAssemblyReference.cache

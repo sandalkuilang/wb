@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D01B12F9-7615-4873-B6CF-EE143EB27EC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebPlatform</RootNamespace>
+    <AssemblyName>WebPlatform</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crypto, Version=1.0.5896.34049, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\KrokotLibrary\Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Krokot.Container, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\KrokotLibrary\Krokot.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="Krokot.Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\KrokotLibrary\Krokot.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Krokot.Database.Petapoco, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\KrokotLibrary\Krokot.Database.Petapoco.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorizationExtensions.cs" />
+    <Compile Include="BaseController.cs" />
+    <Compile Include="BaseLandingController.cs" />
+    <Compile Include="Configuration\EmailSettings.cs" />
+    <Compile Include="Configuration\SocialMediaCollection.cs" />
+    <Compile Include="Configuration\SocialMediaElement.cs" />
+    <Compile Include="Configuration\SocialMediaSettings.cs" />
+    <Compile Include="ContainerFactory.cs" />
+    <Compile Include="Credential\AuthorizationAttribute.cs" />
+    <Compile Include="Credential\RequestAuthentication.cs" />
+    <Compile Include="Cryptography\Base64WebConfigurationKey.cs" />
+    <Compile Include="Cryptography\GenerateKeyIV.cs" />
+    <Compile Include="Cryptography\ArrayWebConfigurationKey.cs" />
+    <Compile Include="GlobalConst.cs" />
+    <Compile Include="HierarchicalEnumerable.cs" />
+    <Compile Include="BaseRazorHtmlExtensions.cs" />
+    <Compile Include="HttpSessionStateExtensions.cs" />
+    <Compile Include="LoginPageController.cs" />
+    <Compile Include="Credential\AuthorizationFunction.cs" />
+    <Compile Include="Credential\AuthorizationFeatureQualifier.cs" />
+    <Compile Include="Credential\AuthorizationUIPolicy.cs" />
+    <Compile Include="Credential\DatabaseUserProvider.cs" />
+    <Compile Include="Credential\Role.cs" />
+    <Compile Include="Menu\DatabaseMenuProvider.cs" />
+    <Compile Include="Credential\IAuthorization.cs" />
+    <Compile Include="Menu\IMenuProvider.cs" />
+    <Compile Include="KeyValueData.cs" />
+    <Compile Include="LandingPageSettings.cs" />
+    <Compile Include="Menu\MenuData.cs" />
+    <Compile Include="Menu\MenuCollection.cs" />
+    <Compile Include="Menu\HierarchyMenuData.cs" />
+    <Compile Include="Menu\MenuExtensions.cs" />
+    <Compile Include="PageDescriptor.cs" />
+    <Compile Include="PageSettings.cs" />
+    <Compile Include="SecuritySettings.cs" />
+    <Compile Include="SessionPool.cs" />
+    <Compile Include="TechnicalExtensions.cs" />
+    <Compile Include="ApplicationSettings.cs" />
+    <Compile Include="HtmlExtensions.cs" />
+    <Compile Include="Cryptography\RijndaelEncryption.cs" />
+    <Compile Include="Configuration\ConnectionStringCollection.cs" />
+    <Compile Include="Configuration\ConnectionStringElement.cs" />
+    <Compile Include="Configuration\ConnectionStringSettings.cs" />
+    <Compile Include="Configuration\EnvironmentSettings.cs" />
+    <Compile Include="Configuration\MenuSettings.cs" />
+    <Compile Include="Configuration\TechnicalInformationSettings.cs" />
+    <Compile Include="DatabaseManager.cs" />
+    <Compile Include="PlatformExtensions.cs" />
+    <Compile Include="Cryptography\IEncryptionAgent.cs" />
+    <Compile Include="PageController.cs" />
+    <Compile Include="PageExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Cryptography\SymmetricEncryption.cs" />
+    <Compile Include="Credential\IUserProvider.cs" />
+    <Compile Include="Credential\User.cs" />
+    <Compile Include="UISettings.cs" />
+    <Compile Include="WebApplicationStartup.cs" />
+    <Compile Include="WebUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SqlFiles\GetAuthorizationFeautureByFunctionId.sql" />
+    <EmbeddedResource Include="SqlFiles\GetAuthorizationFunctionByRoleId.sql" />
+    <EmbeddedResource Include="SqlFiles\GetAuthorizationByUsername.sql" />
+    <EmbeddedResource Include="SqlFiles\GetUserByName.sql" />
+    <EmbeddedResource Include="SqlFiles\GetMenu.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\Crypto.dll" />
+    <Content Include="libs\Krokot.Container.dll" />
+    <Content Include="libs\Krokot.Database.dll" />
+    <Content Include="libs\Krokot.Database.Petapoco.dll" />
+    <Content Include="libs\Krokot.Document.dll" />
+    <Content Include="libs\Krokot.Document.XML.dll" />
+    <Content Include="libs\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="libs\System.Web.Helpers.dll" />
+    <Content Include="libs\System.Web.Mvc.dll" />
+    <Content Include="libs\System.Web.Razor.dll" />
+    <Content Include="libs\System.Web.WebPages.Deployment.dll" />
+    <Content Include="libs\System.Web.WebPages.dll" />
+    <Content Include="libs\System.Web.WebPages.Razor.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

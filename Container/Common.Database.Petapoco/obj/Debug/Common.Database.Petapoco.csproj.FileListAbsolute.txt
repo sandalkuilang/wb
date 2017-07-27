@@ -1,0 +1,14 @@
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Common.Database.Petapoco.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Common.Database.Petapoco.pdb
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Common.Database.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\bin\Debug\Common.Database.pdb
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\obj\Debug\Common.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\obj\Debug\Common.Database.Petapoco.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Database.Petapoco\obj\Debug\Common.Database.Petapoco.pdb
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Debug\Common.Database.Petapoco.dll
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Debug\Common.Database.Petapoco.pdb
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Debug\Common.Database.dll
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Debug\Common.Database.pdb
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.dll
+D:\GitHub\CommonLibrary\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.pdb

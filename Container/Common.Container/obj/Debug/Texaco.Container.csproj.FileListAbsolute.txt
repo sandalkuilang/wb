@@ -1,0 +1,13 @@
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\bin\Debug\Texaco.Container.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\bin\Debug\Texaco.Container.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\obj\Debug\Texaco.Container.csprojResolveAssemblyReference.cache
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\obj\Debug\Texaco.Container.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Container\obj\Debug\Texaco.Container.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Container\bin\Debug\Texaco.Container.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Container\bin\Debug\Texaco.Container.pdb
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Container\obj\Debug\Texaco.Container.dll
+D:\VS 2013\Projects\C#\TexacoLibrary\Texaco.Container\obj\Debug\Texaco.Container.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Container\bin\Debug\Texaco.Container.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Container\bin\Debug\Texaco.Container.pdb
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Container\obj\Debug\Texaco.Container.dll
+C:\Users\!hpfr\Documents\Visual Studio 2010\Projects\TexacoLibrary\TexacoLibrary\Texaco.Container\obj\Debug\Texaco.Container.pdb

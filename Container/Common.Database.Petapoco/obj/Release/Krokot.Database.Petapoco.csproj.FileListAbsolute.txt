@@ -1,0 +1,14 @@
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Release\Krokot.Database.Petapoco.dll
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Release\Krokot.Database.Petapoco.pdb
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Release\Krokot.Database.dll
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\bin\Release\Krokot.Database.pdb
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\obj\Release\Krokot.Database.Petapoco.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\obj\Release\Krokot.Database.Petapoco.dll
+E:\GitHub\CommonLibrary\Common.Database.Petapoco\obj\Release\Krokot.Database.Petapoco.pdb
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\obj\Release\Krokot.Database.Petapoco.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\bin\Release\Krokot.Database.Petapoco.dll
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\bin\Release\Krokot.Database.Petapoco.pdb
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\bin\Release\Krokot.Database.dll
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\bin\Release\Krokot.Database.pdb
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\obj\Release\Krokot.Database.Petapoco.dll
+E:\GitHub\CommonLibrary\Krokot.Database.Petapoco\obj\Release\Krokot.Database.Petapoco.pdb

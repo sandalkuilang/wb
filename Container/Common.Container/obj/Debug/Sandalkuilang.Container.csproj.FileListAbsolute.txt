@@ -1,0 +1,4 @@
+D:\GitHub\TexacoLibrary\Texaco.Container\bin\Debug\Sandalkuilang.Container.dll
+D:\GitHub\TexacoLibrary\Texaco.Container\bin\Debug\Sandalkuilang.Container.pdb
+D:\GitHub\TexacoLibrary\Texaco.Container\obj\Debug\Sandalkuilang.Container.dll
+D:\GitHub\TexacoLibrary\Texaco.Container\obj\Debug\Sandalkuilang.Container.pdb

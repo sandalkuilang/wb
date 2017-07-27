@@ -1,0 +1,5 @@
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\bin\Debug\Common.Container.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\bin\Debug\Common.Container.pdb
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\obj\Debug\Common.Container.csprojResolveAssemblyReference.cache
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\obj\Debug\Common.Container.dll
+D:\GitHub\SandalkuilangLibrary\Sandalkuilang.Container\obj\Debug\Common.Container.pdb

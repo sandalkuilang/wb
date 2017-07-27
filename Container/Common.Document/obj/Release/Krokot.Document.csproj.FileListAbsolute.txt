@@ -1,0 +1,9 @@
+E:\GitHub\CommonLibrary\Common.Document\bin\Release\Krokot.Document.dll
+E:\GitHub\CommonLibrary\Common.Document\bin\Release\Krokot.Document.pdb
+E:\GitHub\CommonLibrary\Common.Document\obj\Release\Krokot.Document.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonLibrary\Common.Document\obj\Release\Krokot.Document.dll
+E:\GitHub\CommonLibrary\Common.Document\obj\Release\Krokot.Document.pdb
+E:\GitHub\CommonLibrary\Krokot.Document\bin\Release\Krokot.Document.dll
+E:\GitHub\CommonLibrary\Krokot.Document\bin\Release\Krokot.Document.pdb
+E:\GitHub\CommonLibrary\Krokot.Document\obj\Release\Krokot.Document.dll
+E:\GitHub\CommonLibrary\Krokot.Document\obj\Release\Krokot.Document.pdb

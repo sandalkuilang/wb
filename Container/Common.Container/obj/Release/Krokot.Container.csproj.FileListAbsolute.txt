@@ -1,0 +1,9 @@
+E:\GitHub\CommonLibrary\Common.Container\bin\Release\Krokot.Container.dll
+E:\GitHub\CommonLibrary\Common.Container\bin\Release\Krokot.Container.pdb
+E:\GitHub\CommonLibrary\Common.Container\obj\Release\Krokot.Container.csprojResolveAssemblyReference.cache
+E:\GitHub\CommonLibrary\Common.Container\obj\Release\Krokot.Container.dll
+E:\GitHub\CommonLibrary\Common.Container\obj\Release\Krokot.Container.pdb
+E:\GitHub\CommonLibrary\Krokot.Container\bin\Release\Krokot.Container.dll
+E:\GitHub\CommonLibrary\Krokot.Container\bin\Release\Krokot.Container.pdb
+E:\GitHub\CommonLibrary\Krokot.Container\obj\Release\Krokot.Container.dll
+E:\GitHub\CommonLibrary\Krokot.Container\obj\Release\Krokot.Container.pdb

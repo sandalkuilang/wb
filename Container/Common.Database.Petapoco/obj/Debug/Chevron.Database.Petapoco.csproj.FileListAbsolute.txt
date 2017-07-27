@@ -1,0 +1,14 @@
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Chevron.Database.Petapoco.csprojResolveAssemblyReference.cache
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.Petapoco.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.Petapoco.pdb
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.pdb
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Chevron.Database.Petapoco.dll
+c:\users\!hpfr\documents\visual studio 2010\Projects\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Chevron.Database.Petapoco.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.Petapoco.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.Petapoco.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\bin\Debug\Chevron.Database.pdb
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Chevron.Database.Petapoco.csprojResolveAssemblyReference.cache
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Chevron.Database.Petapoco.dll
+D:\VS 2012\Projects\C#\ChevronLibrary\Chevron.Database.Petapoco\obj\Debug\Chevron.Database.Petapoco.pdb
