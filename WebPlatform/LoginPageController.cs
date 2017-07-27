@@ -12,8 +12,8 @@ using System.Text;
 using WebPlatform.Credential;
 using WebPlatform.Menu;
 using System.Web.Mvc;
-using Krokot.Container;
-using Krokot.Database; 
+using Common.Container;
+using Common.Database; 
 
 namespace WebPlatform
 {

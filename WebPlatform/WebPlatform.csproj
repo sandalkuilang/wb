@@ -42,23 +42,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\KrokotLibrary\Crypto.dll</HintPath>
     </Reference>
-    <Reference Include="Krokot.Container, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\KrokotLibrary\Krokot.Container.dll</HintPath>
-    </Reference>
-    <Reference Include="Krokot.Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\KrokotLibrary\Krokot.Database.dll</HintPath>
-    </Reference>
-    <Reference Include="Krokot.Database.Petapoco, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\KrokotLibrary\Krokot.Database.Petapoco.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.DirectoryServices" />
@@ -166,11 +155,6 @@
   <ItemGroup>
     <Content Include="libs\BouncyCastle.Crypto.dll" />
     <Content Include="libs\Crypto.dll" />
-    <Content Include="libs\Krokot.Container.dll" />
-    <Content Include="libs\Krokot.Database.dll" />
-    <Content Include="libs\Krokot.Database.Petapoco.dll" />
-    <Content Include="libs\Krokot.Document.dll" />
-    <Content Include="libs\Krokot.Document.XML.dll" />
     <Content Include="libs\Microsoft.Web.Infrastructure.dll" />
     <Content Include="libs\System.Web.Helpers.dll" />
     <Content Include="libs\System.Web.Mvc.dll" />
@@ -178,6 +162,28 @@
     <Content Include="libs\System.Web.WebPages.Deployment.dll" />
     <Content Include="libs\System.Web.WebPages.dll" />
     <Content Include="libs\System.Web.WebPages.Razor.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Container\Common.Container\Common.Container.csproj">
+      <Project>{3525d821-98bd-49ea-9783-e66833d8b2ed}</Project>
+      <Name>Common.Container</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Database.Petapoco\Common.Database.Petapoco.csproj">
+      <Project>{9fcd7803-3291-4670-a04c-5758301648a2}</Project>
+      <Name>Common.Database.Petapoco</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Database\Common.Database.csproj">
+      <Project>{af3dbcd0-d99b-4218-a139-13446e1f5ecd}</Project>
+      <Name>Common.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Document.XML\Common.Document.XML.csproj">
+      <Project>{9c47b50c-f95b-45ab-b6aa-a15a700c016d}</Project>
+      <Name>Common.Document.XML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Document\Common.Document.csproj">
+      <Project>{a2778e8f-0a07-465b-add4-7003060e57ce}</Project>
+      <Name>Common.Document</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

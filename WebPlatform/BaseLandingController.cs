@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Krokot.Database;
+using Common.Database;
 using WebPlatform.Credential;
 using WebPlatform.Menu;
 using System.Web.Mvc;

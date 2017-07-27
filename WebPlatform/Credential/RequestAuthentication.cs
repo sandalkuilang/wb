@@ -13,7 +13,7 @@ using System.Web.Routing;
 using System.Diagnostics;
 using WebPlatform.Menu;
 using System.Web;
-using Krokot.Database;
+using Common.Database;
 
 namespace WebPlatform.Credential
 {

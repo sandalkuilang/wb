@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using WebPlatform.Credential;
-using Krokot.Database;
+using Common.Database;
 using System.Web; 
 
 namespace WebPlatform.Credential

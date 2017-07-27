@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Krokot.Container;
+using Common.Container;
 using System.Web;
 using System.Web.SessionState;
 using System.Web.Mvc;
 using WebPlatform.Credential;
-using Krokot.Database;
+using Common.Database;
 using WebPlatform.Menu;
 
 namespace WebPlatform

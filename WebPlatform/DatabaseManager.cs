@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Krokot.Database;
+using Common.Database;
 
 namespace WebPlatform
 {
@@ -28,7 +28,7 @@ namespace WebPlatform
             GetInstance.AddConnection(name, isDefault, connectionDescriptor);
         }
 
-        public void AddSqlLoader(Krokot.Database.SqlLoader.IFileLoader sqlLoader)
+        public void AddSqlLoader(Common.Database.SqlLoader.IFileLoader sqlLoader)
         {
             GetInstance.AddSqlLoader(sqlLoader);
         }
@@ -60,7 +60,7 @@ namespace WebPlatform
             GetInstance.RemoveSqlLoader(name);
         }
 
-        public List<Krokot.Database.SqlLoader.IFileLoader> SqlLoader
+        public List<Common.Database.SqlLoader.IFileLoader> SqlLoader
         {
             get
             {

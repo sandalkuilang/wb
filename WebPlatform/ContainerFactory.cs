@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Krokot.Container;
-using Krokot.Database;
-using Krokot.Database.SqlLoader;
+using Common.Container;
+using Common.Database;
+using Common.Database.SqlLoader;
 using WebPlatform.Configuration;
 using WebPlatform.Cryptography;
 using WebPlatform.Menu;
@@ -59,7 +59,7 @@ namespace WebPlatform
             IEncryptionAgent encryption;
             string passwd;
 
-            IDbManager dbManager = new Krokot.Database.Petapoco.PetapocoDbManager(null, null);
+            IDbManager dbManager = new Common.Database.Petapoco.PetapocoDbManager(null, null);
             IFileLoader resourceloader = new ResourceSqlLoader("resource-loader", "SqlFiles", typeof(DatabaseManager).Assembly);
             IFileLoader fileloader = new FileSqlLoader("file-loader", AppDomain.CurrentDomain.BaseDirectory + "SqlFiles");
             dbManager.AddSqlLoader(resourceloader);

@@ -141,10 +141,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Repo\BaseCommandRespository.cs" />
+    <Compile Include="Models\Repo\IUserAccount.cs" />
+    <Compile Include="Models\Repo\UserAccountRepository.cs" />
+    <Compile Include="Models\UserAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +175,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <EmbeddedResource Include="SqlFiles\Login.sql" />
+    <EmbeddedResource Include="SqlFiles\Register.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -187,7 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -203,6 +210,32 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Container\Common.Container\Common.Container.csproj">
+      <Project>{3525d821-98bd-49ea-9783-e66833d8b2ed}</Project>
+      <Name>Common.Container</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Database.Petapoco\Common.Database.Petapoco.csproj">
+      <Project>{9fcd7803-3291-4670-a04c-5758301648a2}</Project>
+      <Name>Common.Database.Petapoco</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Database\Common.Database.csproj">
+      <Project>{af3dbcd0-d99b-4218-a139-13446e1f5ecd}</Project>
+      <Name>Common.Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Document.XML\Common.Document.XML.csproj">
+      <Project>{9c47b50c-f95b-45ab-b6aa-a15a700c016d}</Project>
+      <Name>Common.Document.XML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Container\Common.Document\Common.Document.csproj">
+      <Project>{a2778e8f-0a07-465b-add4-7003060e57ce}</Project>
+      <Name>Common.Document</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebPlatform\WebPlatform.csproj">
+      <Project>{d01b12f9-7615-4873-b6cf-ee143eb27ec5}</Project>
+      <Name>WebPlatform</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

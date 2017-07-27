@@ -14,7 +14,7 @@ using WebPlatform.Credential;
 using System.Text;
 using System.IO;
 using System.Reflection;
-using Krokot.Database;
+using Common.Database;
 using WebPlatform.Menu;
 
 namespace WebPlatform

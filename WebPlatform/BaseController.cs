@@ -14,7 +14,7 @@ using WebPlatform.Credential;
 using System.Web;
 using System.Web.Security;
 using WebPlatform.Menu;
-using Krokot.Database;
+using Common.Database;
 
 namespace WebPlatform
 {
