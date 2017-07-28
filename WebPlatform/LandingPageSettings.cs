@@ -28,7 +28,7 @@ namespace WebPlatform
             HomeController = "Home";
             LandingController = "Home";
             MaintenanceController = "Maintenance";
-            LoginController = "Account/Login";
+            LoginController = "Login";
             UnauthorizedControlller = "Unauthorized";
             UnauthorizedAlert = "You are not authorized access this page.";
         }

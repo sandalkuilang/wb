@@ -30,15 +30,13 @@
                 @{  if (Html.Platform().User == null)
                     { 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="@Url.Action("Index", "Account/Register")"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-                            <li><a href="@Url.Action("Index", "Account/Login")"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="@Url.Action("Index", "Home/Register")"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                            <li><a href="@Url.Action("Index", "Home/Login")"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul> 
                     }
                     else
-                    {
-                        <ul class="nav navbar-nav navbar-right">
-                            <span>@Html.Platform().User.FirstName + @Html.Platform().User.LastName</span>
-                        </ul>
+                    { 
+                        <p class="navbar-text navbar-right">@Html.Platform().User.FirstName @Html.Platform().User.LastName</p>
                     }
                 }
                 

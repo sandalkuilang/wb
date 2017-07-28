@@ -91,7 +91,9 @@
     <Compile Include="Configuration\SecuritySettings.cs" />
     <Compile Include="ContainerFactory.cs" />
     <Compile Include="Credential\AuthorizationAttribute.cs" />
+    <Compile Include="Credential\IUserAuthentication.cs" />
     <Compile Include="Credential\RequestAuthentication.cs" />
+    <Compile Include="Credential\UserAuthentication.cs" />
     <Compile Include="Cryptography\Base64WebConfigurationKey.cs" />
     <Compile Include="Cryptography\GenerateKeyIV.cs" />
     <Compile Include="Cryptography\ArrayWebConfigurationKey.cs" />

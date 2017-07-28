@@ -15,6 +15,7 @@ namespace Payment
         public override void Startup()
         {
             SessionPool.Instance.Register<IUserAccountRepository>().ImplementedBy<UserAccountRepository>();
+            this.Settings.Landing.LoginController = "Home";
         }
 
         public override void Initialize()

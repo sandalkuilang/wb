@@ -17,6 +17,8 @@ namespace WebPlatform
     {
         private HttpContext context;
 
+        private IDbManager dbManager;
+
         public ContainerFactory(HttpContext context)
         {
             this.context = context;
@@ -30,6 +32,8 @@ namespace WebPlatform
                 InitializeDatabase(container);
                 InitializeUser(container);
                 InitializeMenu(container);
+                InitializeCryptography(container);
+                InitializeAuthentication(container);
             }
         }
          
@@ -45,6 +49,8 @@ namespace WebPlatform
                 container.Unregister<PlatformExtensions>();
                 container.Unregister<ApplicationSettings>();
                 container.Unregister<IDbManager>();
+                container.Unregister<IEncryptionAgent>();
+                container.Unregister<IEncryptionFileAgent>();
             } 
         }
           
@@ -59,7 +65,7 @@ namespace WebPlatform
             IEncryptionAgent encryption;
             string passwd;
 
-            IDbManager dbManager = new Common.Database.Petapoco.PetapocoDbManager(null, null);
+            dbManager = new Common.Database.Petapoco.PetapocoDbManager(null, null);
             IFileLoader resourceloader = new ResourceSqlLoader("resource-loader", "SqlFiles", typeof(DatabaseManager).Assembly);
             IFileLoader fileloader = new FileSqlLoader("file-loader", AppDomain.CurrentDomain.BaseDirectory + "SqlFiles");
             dbManager.AddSqlLoader(resourceloader);
@@ -85,15 +91,13 @@ namespace WebPlatform
 
         private void InitializeUser(IContainer container)
         {
-            IDbManager dbManager = container.Resolve<IDbManager>();
             string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
             if (!string.IsNullOrEmpty(defaultDbName))
                 container.Register<IUserProvider>().ImplementedBy(new DatabaseUserProvider(dbManager));
         }
 
         private void InitializeMenu(IContainer container)
-        {
-            IDbManager dbManager = container.Resolve<IDbManager>();
+        { 
             string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
             if (!string.IsNullOrEmpty(defaultDbName))
             {
@@ -108,6 +112,15 @@ namespace WebPlatform
             container.Register<Cryptography.IEncryptionAgent>().ImplementedBy(sym);
 
             container.Register<Cryptography.IEncryptionFileAgent>().ImplementedBy<PGPEncryption>();
+        }
+
+        private void InitializeAuthentication(IContainer container)
+        { 
+            string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault(); 
+            if (!string.IsNullOrEmpty(defaultDbName))
+            { 
+                container.Register<IUserAuthentication>().ImplementedBy<UserAuthentication>();
+            }
         }
     }
 }
