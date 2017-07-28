@@ -19,3 +19,10 @@ G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\bin
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.csprojResolveAssemblyReference.cache
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.dll
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\bin\Debug\Common.Database.Petapoco.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\bin\Debug\Common.Database.Petapoco.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\bin\Debug\Common.Database.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\bin\Debug\Common.Database.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database.Petapoco\obj\Debug\Common.Database.Petapoco.pdb

@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using WebPlatform
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -19,11 +21,27 @@
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                @Html.Platform().Menu.GetHtml()
+                @*<ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
+                </ul>*@
+                @{  if (Html.Platform().User == null)
+                    { 
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="@Url.Action("Index", "Account/Register")"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                            <li><a href="@Url.Action("Index", "Account/Login")"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul> 
+                    }
+                    else
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <span>@Html.Platform().User.FirstName + @Html.Platform().User.LastName</span>
+                        </ul>
+                    }
+                }
+                
             </div>
         </div>
     </div>

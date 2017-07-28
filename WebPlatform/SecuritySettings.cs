@@ -12,22 +12,16 @@ using System.Text;
 
 namespace WebPlatform
 {
-    public class SecuritySettings
-    {
-        public string LoginControlller { get; set; }
-        public string UnauthorizedControlller { get; set; }
+    public class AuthenticationSettings
+    { 
         public bool EnableAuthentication { get; set; }
-        public bool SkipAuthorization { get; set; }
-        public string UnauthorizedAlert { get; set; }
+        public bool SkipAuthorization { get; set; } 
 
-        public SecuritySettings()
+        public AuthenticationSettings()
         {
             // default value
-            LoginControlller = "Login";
-            UnauthorizedControlller = "Unauthorized";
             EnableAuthentication = true;
-            SkipAuthorization = false;
-            UnauthorizedAlert = "You are not authorized access this page.";
+            SkipAuthorization = false; 
         }
     }
 }

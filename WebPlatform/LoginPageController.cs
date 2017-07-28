@@ -28,9 +28,9 @@ namespace WebPlatform
             userProvider = SessionPool.Instance.Resolve<IUserProvider>();
         }
           
-        public bool Login(string username) 
+        public bool LoginUser(string username) 
         {
-            if (ApplicationSettings.Instance.Security.EnableAuthentication)
+            if (ApplicationSettings.Instance.AuthenticationSetting.EnableAuthentication)
             { 
                 string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
                 if (userProvider == null)
@@ -45,9 +45,9 @@ namespace WebPlatform
             }
         }
 
-        public bool Login(string username, string password)
+        public bool LoginUser(string username, string password)
         {
-            if (ApplicationSettings.Instance.Security.EnableAuthentication)
+            if (ApplicationSettings.Instance.AuthenticationSetting.EnableAuthentication)
             {
                 string defaultDbName = dbManager.ConnectionDescriptor.Where(x => x.IsDefault).Select(c => c.Name).SingleOrDefault();
                 if (userProvider == null)

@@ -8,3 +8,7 @@ G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\bin\Debug\C
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.csprojResolveAssemblyReference.cache
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.dll
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\bin\Debug\Common.Container.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\bin\Debug\Common.Container.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Container\obj\Debug\Common.Container.pdb

@@ -39,7 +39,7 @@ namespace WebPlatform.Menu
             if (menus != null)
             { 
                 
-                html.AppendLine("<ul>");
+                html.AppendLine("<ul class=\"nav navbar-nav\">");
                 foreach (HierarchyMenuData menu in menus)
                 {
                     IterateNode(menu, ref html);
@@ -53,19 +53,21 @@ namespace WebPlatform.Menu
         {
             if (current.HasChildren)
             {
-                html.AppendLine(string.Format("<li class='has-sub'><a href=\"{0}\">{1}</a>", current.Url == "" ? "#" : current.Url, current.Description));
+                html.AppendLine(string.Format("<li><a href=\"{0}\">{1}</a>", current.Url == "" ? "#" : current.Url, current.Description));
                 html.AppendLine("<ul>");
             }
             else
             {
                 if ((current.Url.Length == 1) && (current.Url == @"/"))
-                    html.AppendLine(string.Format("<li class='has-sub'><a href=\"{0}\">{1}</a>", GetBaseUrl, current.Description));
+                    html.AppendLine(string.Format("<li><a href=\"{0}\">{1}</a>", GetBaseUrl, current.Description));
                 else
                 {
-                    if (string.IsNullOrEmpty(GetPathInfoUrl))
-                        html.AppendLine(string.Format("<li class='has-sub'><a href=\"{0}\">{1}</a>", "/" + current.Url, current.Description));
-                    else
-                        html.AppendLine(string.Format("<li class='has-sub'><a href=\"{0}\">{1}</a>", "/" + GetPathInfoUrl + "/" + current.Url, current.Description));
+                    html.AppendLine(string.Format("<li><a href=\"{0}\">{1}</a>", "/" + current.Url, current.Description));
+
+                    //if (string.IsNullOrEmpty(GetPathInfoUrl))
+                    //    html.AppendLine(string.Format("<li><a href=\"{0}\">{1}</a>", "/" + current.Url, current.Description));
+                    //else
+                    //    html.AppendLine(string.Format("<li><a href=\"{0}\">{1}</a>", "/" + current.Url, current.Description));
                 }
                     
             }

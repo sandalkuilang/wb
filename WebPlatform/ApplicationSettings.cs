@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using WebPlatform.Configuration;
+using WebPlatform.Credential;
 
 namespace WebPlatform
 {
@@ -31,7 +32,7 @@ namespace WebPlatform
 
         public MenuSettings Menu { get; set; }
         
-        public SecuritySettings  Security{ get; set; }
+        public AuthenticationSettings AuthenticationSetting { get; set; }
 
         public EnvironmentSettings Environment { get; private set; }
         
@@ -39,17 +40,28 @@ namespace WebPlatform
 
         public TechnicalInformationSettings TechnicalInformation { get; private set; }
 
+        public SecuritySettings SecuritySetting { get; private set; }
+
         internal WebPlatform.Configuration.ConnectionStringSettings Connection { get; private set; }
+
+        public User AuthorizedUser
+        {
+            get
+            {
+                return SessionPool.Instance.Resolve<User>();
+            }
+        }
 
         public ApplicationSettings()
         {
             Menu = new MenuSettings();
-            Security = new SecuritySettings();
+            AuthenticationSetting = new AuthenticationSettings();
             Landing = new LandingPageSettings();
             System.Configuration.Configuration config = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("~");
 
             Environment = (WebPlatform.Configuration.EnvironmentSettings)config.GetSection("environmentSettings");
             TechnicalInformation = (WebPlatform.Configuration.TechnicalInformationSettings)config.GetSection("technicalInformationSettings");
+            SecuritySetting = (WebPlatform.Configuration.SecuritySettings)config.GetSection("securitySettings");
             Email = (WebPlatform.Configuration.EmailSettings)config.GetSection("emailSettings");
             Connection = (WebPlatform.Configuration.ConnectionStringSettings)config.GetSection("connectionStringCollection");
             

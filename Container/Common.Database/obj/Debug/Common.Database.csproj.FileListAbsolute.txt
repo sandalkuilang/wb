@@ -8,3 +8,7 @@ G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\bin\Debug\Co
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.csprojResolveAssemblyReference.cache
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.dll
 G:\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\bin\Debug\Common.Database.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\bin\Debug\Common.Database.pdb
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.dll
+\\Mac\Home\Documents\Visual Studio 2017\Projects\wb-payment\Container\Common.Database\obj\Debug\Common.Database.pdb

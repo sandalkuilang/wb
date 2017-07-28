@@ -88,6 +88,7 @@
     <Compile Include="Configuration\SocialMediaCollection.cs" />
     <Compile Include="Configuration\SocialMediaElement.cs" />
     <Compile Include="Configuration\SocialMediaSettings.cs" />
+    <Compile Include="Configuration\SecuritySettings.cs" />
     <Compile Include="ContainerFactory.cs" />
     <Compile Include="Credential\AuthorizationAttribute.cs" />
     <Compile Include="Credential\RequestAuthentication.cs" />

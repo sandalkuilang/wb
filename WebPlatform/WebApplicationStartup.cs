@@ -28,6 +28,8 @@ namespace WebPlatform
         {
             containerFactory = new ContainerFactory(HttpContext.Current);
             containerFactory.Register(SessionPool.Instance);
+
+            this.Startup();
         }
 
         protected void Session_End()
@@ -37,7 +39,7 @@ namespace WebPlatform
         }
 
         protected virtual void Application_Start()
-        { 
+        {
             //RouteCollectionExtensions.IgnoreRoute(RouteTable.Routes, "{resource}.axd/{*pathInfo}");
             //RouteCollectionExtensions.MapRoute(RouteTable.Routes, "_default_route_", "{controller}/{action}/{id}", 
             //        new 
@@ -46,11 +48,12 @@ namespace WebPlatform
             //            action = "Index", 
             //            id = UrlParameter.Optional 
             //        });
-            
-            this.Startup();
+
+            this.Initialize();
         }
          
-        public abstract void Startup();
+        public abstract void Startup(); 
+        public abstract void Initialize();
 
     }
 }
